@@ -1,4 +1,4 @@
-package Arrays.Practise_ques;
+package Arrays.Practise_ques_15_09_2025;
 
 public class easy_1 {
     public static void main(String[] args){
