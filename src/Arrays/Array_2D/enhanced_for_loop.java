@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Array_2D;
 
 public class enhanced_for_loop {
     public static void main(String[] args) {

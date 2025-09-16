@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Array_2D;
 
 public class basic_array_2D {
     public static void main(String[] args){

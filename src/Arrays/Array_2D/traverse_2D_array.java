@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Array_2D;
 
 public class traverse_2D_array {
     public static void main(String[] args){
