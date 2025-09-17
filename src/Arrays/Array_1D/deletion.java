@@ -1,4 +1,4 @@
-package Arrays;
+package Arrays.Array_1D;
 
 import java.util.Arrays; // Needed for Arrays.toString()
 

@@ -1,6 +1,4 @@
-package Arrays;
-
-import java.sql.SQLOutput;
+package Arrays.Array_1D;
 
 public class traversing_arr {
     public static void main(String[] args){
