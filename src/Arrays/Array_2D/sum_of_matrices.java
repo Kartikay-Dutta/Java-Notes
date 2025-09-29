@@ -2,7 +2,7 @@ package Arrays.Array_2D;
 
 public class sum_of_matrices {
 public static void main(String[] args){
-            // Example: 2x3 matrices
+            // Example: 3x3 matrices
             int rows = 3, cols = 3;
 
             int[][] matrix1 = {
