@@ -1,6 +1,6 @@
-package String;
+package String.Practise_ques_01_10_2025;
 
-public class string_buffer {
+public class Easy_1 {
     public static void main(String[] args) {
         String str = "Kartikay";
         String upper_str = str.toUpperCase();
