@@ -3,7 +3,7 @@ package Class;
  class Demo2{
      Integer a  = Integer.valueOf(5);
      Integer b = 5;
-     Integer c = new Integer(10);
+     Integer c = new Integer(10); // heap main jayega coz of new
 
  }
 public class wrapper_class {
