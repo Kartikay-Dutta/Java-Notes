@@ -2,14 +2,11 @@ package Class.Practise_ques_15_10_2025;
 
 public class Easy_1 {
 
-    // Inner Student class
     static class Student {
-        // Instance variables
         private String name;
         private int rollNumber;
         private double marks;
 
-        // Static variable
         private static int totalStudents = 0;
 
         // Default constructor
@@ -40,31 +37,25 @@ public class Easy_1 {
                 return 'F';
         }
 
-        // Display method
+        // Compact display method
         public void displayDetails() {
-            System.out.println("Name: " + name);
-            System.out.println("Roll Number: " + rollNumber);
-            System.out.println("Marks: " + marks);
-            System.out.println("Grade: " + calculateGrade());
-            System.out.println();
+            System.out.println(name + "(" + rollNumber + ") Marks: " + marks + " Grade: " + calculateGrade());
         }
 
-        // Static method to display total students
-        public static void displayTotalStudents() {
-            System.out.println("Total Students: " + totalStudents);
+        public static int getTotalStudents() {
+            return totalStudents;
         }
     }
 
-    // Main method
     public static void main(String[] args) {
-        Student s1 = new Student("Kartikay", 101, 92);
-        Student s2 = new Student("Riya", 102, 78);
-        Student s3 = new Student();
+        Student s1 = new Student("John", 101, 85);
+        Student s2 = new Student("Riya", 102, 93);
+        Student s3 = new Student("Aman", 103, 47);
+
+        System.out.println("Total Students: " + Student.getTotalStudents());
 
         s1.displayDetails();
         s2.displayDetails();
         s3.displayDetails();
-
-        Student.displayTotalStudents();
     }
 }
