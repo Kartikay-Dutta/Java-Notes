@@ -29,6 +29,18 @@ public class basic {
         return newNode;
     }
 
+    // Method to insert a node at the end
+    Node insertAtEnd(Node head, int value) {
+        Node newNode = new Node(value);
+        if (head == null) return newNode;
+        Node current = head;
+        while (current.next != null) {
+            current = current.next;
+        }
+        current.next = newNode;
+        return head;
+    }
+
     public static void main(String[] args) {
         basic list = new basic();  // create an object to call methods
 
@@ -40,8 +52,11 @@ public class basic {
         list.traverse(head);
 
         head = list.insertAtBeginning(head, 0); // insert 0 at the beginning
+        System.out.print("After inserting at beginning: ");
+        list.traverse(head);
 
-        System.out.print("After insertion: ");
+        head = list.insertAtEnd(head, 4); // insert 4 at the end
+        System.out.print("After inserting at end: ");
         list.traverse(head);
     }
 }
