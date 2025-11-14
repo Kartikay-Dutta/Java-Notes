@@ -12,3 +12,4 @@ public class basic_array {
         int[] scores = {85,90,78,92,88};
     }
 }
+
