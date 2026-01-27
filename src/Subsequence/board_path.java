@@ -14,6 +14,6 @@ public class board_path {
             }
 
     public static void main(String[] args) {
-        boardPath(0, 3, "");
+        boardPath(0, 6, "");
     }
 }
