@@ -1,5 +1,5 @@
 package Subsequence;
-
+// Time complexity = O(2^n)
 public class coin_toss {
     static void coinToss(int n, String ans){
         if(n==0){
