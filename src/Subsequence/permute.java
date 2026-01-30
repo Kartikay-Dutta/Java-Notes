@@ -17,5 +17,3 @@ public class permute {
         permute("ab", "");
     }
 }
-p=2242
-6
