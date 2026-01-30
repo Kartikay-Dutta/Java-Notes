@@ -1,4 +1,4 @@
-package Subsequence;
+package Recursion;
 
 public class board_path {
             static void boardPath(int curr, int end, String ans){

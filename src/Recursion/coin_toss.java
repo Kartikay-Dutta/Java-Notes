@@ -1,4 +1,4 @@
-package Subsequence;
+package Recursion;
 // Time complexity = O(2^n)
 public class coin_toss {
     static void coinToss(int n, String ans){

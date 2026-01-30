@@ -1,4 +1,4 @@
-package Subsequence;
+package Recursion;
 
 public class permute {
     static void permute(String s, String ans){
