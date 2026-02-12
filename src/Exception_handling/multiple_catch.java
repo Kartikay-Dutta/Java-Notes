@@ -5,10 +5,12 @@ public class multiple_catch {
         try{
             int arr[] = new int[5];
             arr[10] = 50;
-        } catch(ArithmeticException e){
+        }
+        catch(ArithmeticException e){
             System.out.println("Arithmetic error!");
         } catch(ArrayIndexOutOfBoundsException e){
             System.out.println("Index Error!");
         }
+        System.out.println("HI");
     }
     }
