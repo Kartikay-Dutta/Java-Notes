@@ -5,6 +5,8 @@ class ConstructorDemo { //isko public nahi kar skte coz dusri files isko filenam
     ConstructorDemo(){
 //      int y; // apne aap initialize nahi hoga so itll give an error
         this(10,20); //parameter wala bhi call ho jayega
+//      this(x,y) x kar skte hai but not y coz its not initialized
+//      this(this.x, y); parent constructor pehle call hona chahiye isliye this this ko call nahi kar skta
         int x = 20;
         this.x = x; // this is used to access the object
         int y = 10;
