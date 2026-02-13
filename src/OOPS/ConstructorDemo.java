@@ -3,7 +3,8 @@ package OOPS;
 class ConstructorDemo { //isko public nahi kar skte coz dusri files isko filename se access karengi.
     int x; //jvm default zero deta hai under default constructor.
     ConstructorDemo(){
-//      int y; // apne aap initialize nahi hoga so itll give an error\
+//      int y; // apne aap initialize nahi hoga so itll give an error
+        this(10,20); //parameter wala bhi call ho jayega
         int x = 20;
         this.x = x; // this is used to access the object
         int y = 10;
@@ -18,7 +19,7 @@ class ConstructorDemo { //isko public nahi kar skte coz dusri files isko filenam
         System.out.println("In fun method");
     }
     public static void main(String[] args) {
-        ConstructorDemo cd = new ConstructorDemo(30,40); //if we do this then the non parameterized constructor will not be called
+        ConstructorDemo cd = new ConstructorDemo(); //if we do this then the non parameterized constructor will not be called
 //        ConstructorDemo c = new ConstructorDemo();
     }
 }
