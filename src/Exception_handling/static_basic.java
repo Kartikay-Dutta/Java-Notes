@@ -1,4 +1,4 @@
-package OOPS;
+package Exception_handling;
 
 public class static_basic {
     int a = 10;

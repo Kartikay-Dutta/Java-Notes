@@ -1,4 +1,4 @@
-package OOPS;
+package Exception_handling;
 
 class ConstructorDemo { //isko public nahi kar skte coz dusri files isko filename se access karengi.
     int x; //jvm default zero deta hai under default constructor.
