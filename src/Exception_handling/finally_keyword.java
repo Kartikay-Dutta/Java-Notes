@@ -10,6 +10,12 @@ public class finally_keyword {
             System.out.println("Caught");
         } finally {
             System.out.println("Finally block");
+            try{
+                System.out.println("idk");
+            }
+            finally{
+                throw new ArithmeticException("last throw");
+            }
         }
 
     }
