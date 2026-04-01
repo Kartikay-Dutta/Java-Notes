@@ -11,7 +11,7 @@ package queue;
          }
          if(front == -1) front = 0;
 
-         rear = (rear+1)%50;
+         rear = (rear+1)%5;
          q[rear] = x;
      }
      static void dequeue(){
