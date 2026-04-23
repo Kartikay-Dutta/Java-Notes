@@ -21,6 +21,5 @@ public class sliding_window_max {
             if(i > k-1) System.out.print(arr[dq.peekFirst()] + " ");
         }
     }
-
 }
 

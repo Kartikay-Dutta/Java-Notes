@@ -12,7 +12,6 @@ public class basic {
         }
     }
 
-    // Method to traverse the linked list
     void traverse(Node head) {
         Node current = head;
         while (current != null) {
@@ -22,14 +21,13 @@ public class basic {
         System.out.println();
     }
 
-    // Method to insert a node at the beginning
     Node insertAtBeginning(Node head, int value) {
         Node newNode = new Node(value);
         newNode.next = head;
         return newNode;
     }
 
-    // Method to insert a node at the end
+
     Node insertAtEnd(Node head, int value) {
         Node newNode = new Node(value);
         if (head == null) return newNode;
